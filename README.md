@@ -43,36 +43,7 @@ This project is built using **Node.js, Express, MongoDB, EJS**, and integrates w
 ## ⚙️ Project Setup
 
 ### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/wanderlust.git
+cd wanderlust
 
-
-2. Install dependencies
-npm install
-
-3. Run the server
-node app.js
-
-wanderlust/
-│
-├── models/              # Mongoose models (User, Listing, Review)
-├── routes/              # Express route handlers
-├── controllers/         # Business logic for routes
-├── views/               # EJS templates for UI
-├── public/              # Static files (CSS, JS, images)
-├── utils/               # Helper functions and middleware
-├── app.js               # Main Express application
-├── .env                 # Environment variables (ignored by Git)
-├── .gitignore           # Git ignore rules
-├── package.json         # Node dependencies and scripts
-└── README.md            # Project documentation
-
-💾 Database
-The project uses MongoDB Atlas (cloud-based) or local MongoDB for storing:
-User data
-Listings
-Reviews
-
-🧠 Future Enhancements
-Add booking and payment integration.
-Implement user profile pages.
-Add image compression for faster uploads.
-Introduce categories and tags for destinations.
